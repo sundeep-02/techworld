@@ -1,10 +1,11 @@
 {
+  "type": "module",
   "name": "techworld",
   "version": "1.0.0",
   "description": "Online Electronic Shopping System like Amazon",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +25,10 @@
     "mongoose": "^5.12.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.14",
-    "@babel/core": "^7.13.15",
-    "@babel/node": "^7.13.13",
-    "@babel/preset-env": "^7.13.15",
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
     "nodemon": "^2.0.7"
   }
 }
