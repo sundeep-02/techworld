@@ -31,7 +31,7 @@ TechWorld, inspired by Amazon Website is a MERN Stack web application built to m
 
 1. Clone repository
 
-        $ git clone git@github.com:vishaln15/techworld.git
+        $ git clone https://github.com/sundeep-02/techworld.git
         $ cd techworld/
 
 2. Setup MongoDB Compass on respective Operating System
